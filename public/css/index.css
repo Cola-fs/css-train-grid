@@ -283,28 +283,36 @@
 
 .task46 {
   display: grid;
+  grid-auto-columns:min-content max-content ;
 }
 
 .task47 {
   display: grid;
+  grid-auto-rows: min-content;
 }
 
 .task48 {
   display: grid;
+  grid-auto-rows:auto ;
 }
 
 .task50 {
   display: grid;
+  grid-auto-flow: dense;
+ 
 }
 
 .task49 {
   display: grid;
+   grid-auto-flow: column dense;
 }
 
 .task51 {
   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 
 .task52 {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
